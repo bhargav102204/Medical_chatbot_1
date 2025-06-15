@@ -1,0 +1,25 @@
+# Python byte‐code caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+myenv/
+backend/myenv/
+
+# Model binaries
+*.bin
+
+# FAISS/Chroma indexes
+backend/vectorstores/
+
+# Node modules
+node_modules/
+backend/node_modules/
+chatbot/node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
